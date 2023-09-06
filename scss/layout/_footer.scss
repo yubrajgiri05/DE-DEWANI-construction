@@ -1,0 +1,43 @@
+footer {
+    background-color: $light-gray-bg;
+    .container {
+      .footer-row-1 {
+        .footer-logo {
+          width: 10rem;
+          figure {
+            margin: 0;
+          }
+        }
+  
+        .link-title {
+          border-bottom: 1px solid $secondery-color;
+          color: $secondery-color;
+          padding-bottom: 0.5rem;
+        }
+        .quick-links {
+          padding-top: 1rem;
+          li {
+            list-style: none;
+            margin-bottom: 0.5rem;
+            i {
+              margin-right: 0.5rem;
+              color: $dark-gray;
+            }
+            a {
+              color: $dark-gray;
+            }
+          }
+        }
+      }
+    }
+  
+    .copyrights {
+      background-color: $secondery-color;
+      color: $white;
+      font-weight: 400;
+      a {
+        color: $white;
+        font-weight: 500;
+      }
+    }
+  }

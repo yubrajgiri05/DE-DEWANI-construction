@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 768px) {
+    .banner .row .banner-text {
+        padding: 5rem 2rem 5rem 2rem !important;
+    }
+
+    .banner .row .banner-text .heading h1 {
+        font-size: 41px !important;
+    }
+
+    .heading h2 {
+        font-size: 34px;
+    }
+
+    .description p {
+        -webkit-line-clamp: 5 !important;
+        font-size: 15px !important;
+    }
+
+    .about-us .row .about-text {
+        padding-bottom: 1px !important;
+    }
+
+    .service .description p {
+        padding-right: 1px !important;
+    }
+
+    .card-odd {
+        background-color: $secondery-color !important;
+        color: white !important;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .heading h2 {
+        font-size: 30px;
+    }
+
+    .about-us .row .about-text {
+        padding: 1rem !important;
+    }
+
+    .banner .row .banner-text .heading h1 {
+        font-size: 29px !important;
+    }
+
+    .banner .row .banner-text .heading {
+        border-left: 6px white solid !important;
+
+    }
+
+    .navbar .phone {
+        display: none !important;
+    }
+
+}
+
+ @media only screen and (max-width: 991px) {
+    .navbar{
+        .container {
+            position: relative !important;
+    
+            .navbar-toggler:hover {
+               position: absolute !important;
+               top: 25px !important;
+               right: 13px !important;
+           }
+    
+            .phone {
+                position: absolute !important;
+                top: 22px !important;
+                left: 37% !important;
+            }
+        }
+    }
+       
+       .faq-section .container .row .faq-img-col {
+        padding-left: 0rem;
+        margin-top: 5rem !important;
+    }
+    
+}
